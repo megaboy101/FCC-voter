@@ -1,5 +1,3 @@
-'use strict';
-
 (function () {
 
    var profileId = document.querySelector('#profile-id') || null;
@@ -22,15 +20,15 @@
       }
 
       if (profileId !== null) {
-         updateHtmlElement(userObject, profileId, 'id');   
+         updateHtmlElement(userObject, profileId, 'id');
       }
 
       if (profileUsername !== null) {
-         updateHtmlElement(userObject, profileUsername, 'username');   
+         updateHtmlElement(userObject, profileUsername, 'username');
       }
 
       if (profileRepos !== null) {
-         updateHtmlElement(userObject, profileRepos, 'publicRepos');   
+         updateHtmlElement(userObject, profileRepos, 'publicRepos');
       }
 
    }));

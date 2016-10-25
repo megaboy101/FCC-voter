@@ -1,5 +1,3 @@
-'use strict';
-
 (function () {
 
    var addButton = document.querySelector('.btn-add');

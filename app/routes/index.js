@@ -1,5 +1,3 @@
-'use strict';
-
 var path = process.cwd();
 var ClickHandler = require(path + '/app/controllers/clickHandler.server.js');
 
